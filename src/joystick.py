@@ -73,7 +73,8 @@ def talker():
                 wz = 0
             vx = vx*0.06 
             vy = -vy*0.06 
-
+            print 'vx',vx
+            print 'vy',vy
             if ds < 0:
                 ds = 0 ## value from 0 to 1
             ds = int(ds*255)
